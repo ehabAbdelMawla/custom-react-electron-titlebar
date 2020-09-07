@@ -1,0 +1,76 @@
+:root {
+    --titleBarHeight: 30px;
+    --titleIcomSize: 20px;
+}
+
+#titleBar {
+    padding: 0;
+    margin: 0;
+    -webkit-app-region: drag;
+    position: sticky;
+    top: 0;
+    z-index: 99999999999;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    height: var(--titleBarHeight);
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+#titleBar ul {
+    min-height: 40px;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row-reverse;
+    align-items: stretch;
+    /* background: #3f47e7; */
+}
+
+#titleBar ul li {
+    -webkit-app-region: no-drag;
+    line-height: var(--titleBarHeight);
+    font-size: 16px;
+    padding: 0px 15px;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+#titleBar ul li:hover {
+    opacity: 1;
+    background: rgba(56, 56, 56, 0.208);
+}
+
+#titleBar div {
+    /* background: chartreuse; */
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-app-region: no-drag;
+}
+
+#titleBar div img {
+    max-width: var(--titleIcomSize);
+    max-height: var(--titleIcomSize);
+    -webkit-user-select: none;
+}
+
+#titleBar div p {
+    transition: all 0.3s ease-in-out;
+    height: var(--titleBarHeight);
+    line-height: var(--titleBarHeight);
+    -webkit-user-select: none;
+    padding-left: 10px;
+    font-weight: 650;
+    opacity: 0.6;
+}
+
+
+/* #titleBar div:hover p, */
+
+#titleBar div p:hover {
+    opacity: 1;
+}

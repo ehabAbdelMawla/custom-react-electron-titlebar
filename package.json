@@ -1,0 +1,29 @@
+{
+    "name": "custom-react-electron-titlebar",
+    "version": "1.0.1",
+    "description": "simple custom electron title bar with react",
+    "main": "./build/index.js",
+    "devDependencies": {
+        "@babel/core": "^7.7.5",
+        "@babel/preset-env": "^7.7.6",
+        "@babel/preset-react": "^7.7.4",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.3.0",
+        "style-loader": "^1.0.1",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "react": "^16.13.1"
+    },
+    "scripts": {
+        "build": "webpack"
+    },
+    "author": "EhabAbdelMawla",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ehabAbdelMawla/custom-react-electron-titlebar.git"
+    }
+}
