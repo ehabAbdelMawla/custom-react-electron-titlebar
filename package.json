@@ -25,5 +25,11 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/ehabAbdelMawla/custom-react-electron-titlebar.git"
-    }
+    },
+    "keywords": [
+        "ReactJS",
+        "electronJS",
+        "titlebar",
+        "PromiseRejectionHandledWarning"
+    ],
 }
