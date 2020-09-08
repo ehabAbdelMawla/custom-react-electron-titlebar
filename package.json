@@ -29,7 +29,7 @@
     "keywords": [
         "ReactJS",
         "electronJS",
-        "titlebar",
-        "PromiseRejectionHandledWarning"
-    ],
+        "titlebar"
+
+    ]
 }
