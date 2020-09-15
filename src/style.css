@@ -20,12 +20,13 @@
 
 #titleBar ul {
     min-height: 40px;
+    list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row-reverse;
     align-items: stretch;
-    /* background: #3f47e7; */
 }
 
 #titleBar ul li {
