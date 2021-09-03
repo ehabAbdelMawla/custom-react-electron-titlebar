@@ -1,7 +1,7 @@
 # custom-react-electron-titlebar
 Simple titlebar for electron apps for every system.
 
-# Scrennshots
+# Screnshots
 ![](images/image.jpg)
 
 
